@@ -1,0 +1,1957 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+database connected success...
+[GIN-debug] GET    /health/check             --> git.sxxfuture.net/filfi/letsfil/letsfil-job/src/goft.JsonResponder.RespondTo.func1 (4 handlers)
+[GIN-debug] GET    /service-provier/list     --> git.sxxfuture.net/filfi/letsfil/letsfil-job/src/goft.JsonResponder.RespondTo.func1 (4 handlers)
+[GIN-debug] GET    /raising-plan/list        --> git.sxxfuture.net/filfi/letsfil/letsfil-job/src/goft.JsonResponder.RespondTo.func1 (4 handlers)
+[GIN-debug] GET    /raising-plan/raiser/list --> git.sxxfuture.net/filfi/letsfil/letsfil-job/src/goft.JsonResponder.RespondTo.func1 (4 handlers)
+[GIN-debug] GET    /raising-plan/info        --> git.sxxfuture.net/filfi/letsfil/letsfil-job/src/goft.JsonResponder.RespondTo.func1 (4 handlers)
+[GIN-debug] GET    /raising-plan/invest/list --> git.sxxfuture.net/filfi/letsfil/letsfil-job/src/goft.JsonResponder.RespondTo.func1 (4 handlers)
+[GIN-debug] GET    /raising-plan/income      --> git.sxxfuture.net/filfi/letsfil/letsfil-job/src/goft.JsonResponder.RespondTo.func1 (4 handlers)
+[GIN-debug] GET    /raising-plan/progress    --> git.sxxfuture.net/filfi/letsfil/letsfil-job/src/goft.JsonResponder.RespondTo.func1 (4 handlers)
+[GIN-debug] GET    /raising-plan/asset/report --> git.sxxfuture.net/filfi/letsfil/letsfil-job/src/goft.JsonResponder.RespondTo.func1 (4 handlers)
+[GIN-debug] GET    /raising-plan/allocated/asset --> git.sxxfuture.net/filfi/letsfil/letsfil-job/src/goft.JsonResponder.RespondTo.func1 (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :7777
+2023-03-23T17:17:23.536+0800	INFO	controller/RaisingPlanController.go:45	offset:0
+2023-03-23T17:17:23.536+0800	INFO	controller/RaisingPlanController.go:46	pagination.PageSize:{Page:1 PageSize:20 Sort:created_at desc}
+2023-03-23T17:17:23.538+0800	INFO	goft/ZapLogger.go:50	/raising-plan/list	{"status": 200, "method": "GET", "path": "/raising-plan/list", "query": "page=1&page_size=20", "ip": "10.5.10.252", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.001933266}
+2023-03-23T17:42:45.661+0800	INFO	goft/ZapLogger.go:50	/service-provier/list	{"status": 200, "method": "GET", "path": "/service-provier/list", "query": "", "ip": "10.1.7.21", "user-agent": "curl/7.86.0", "errors": "", "cost": 0.001340513}
+2023-03-23T17:43:39.028+0800	INFO	goft/ZapLogger.go:50	/service-provier/list	{"status": 200, "method": "GET", "path": "/service-provier/list", "query": "", "ip": "10.1.7.21", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36", "errors": "", "cost": 0.000996058}
+2023-03-23T17:44:04.590+0800	INFO	goft/ZapLogger.go:50	/service-provier/list	{"status": 200, "method": "GET", "path": "/service-provier/list", "query": "", "ip": "10.1.7.21", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36", "errors": "", "cost": 0.000662092}
+2023-03-23T17:44:12.221+0800	INFO	goft/ZapLogger.go:50	/service-provier/list	{"status": 200, "method": "GET", "path": "/service-provier/list", "query": "", "ip": "10.1.7.21", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36", "errors": "", "cost": 0.000728235}
+2023-03-23T17:45:19.608+0800	INFO	goft/ZapLogger.go:50	/service-provier/list	{"status": 200, "method": "GET", "path": "/service-provier/list", "query": "", "ip": "10.1.7.21", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36", "errors": "", "cost": 0.000935334}
+2023-03-23T17:48:03.561+0800	INFO	goft/ZapLogger.go:50	/service-provier/list	{"status": 200, "method": "GET", "path": "/service-provier/list", "query": "", "ip": "10.1.7.21", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36", "errors": "", "cost": 0.000761408}
+2023-03-23T17:48:13.973+0800	INFO	goft/ZapLogger.go:50	/service-provier/list	{"status": 200, "method": "GET", "path": "/service-provier/list", "query": "", "ip": "10.1.7.21", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36", "errors": "", "cost": 0.000849533}
+2023-03-23T17:50:52.031+0800	INFO	goft/ZapLogger.go:50	/service-provier/list	{"status": 200, "method": "GET", "path": "/service-provier/list", "query": "", "ip": "10.1.7.21", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36", "errors": "", "cost": 0.000790713}
+cron: 2023/03/23 18:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 117 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0xc00011cc90?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445f80?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445fd0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 18:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 114 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0xc000441f68?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6650?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000666140?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 18:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 115 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 18:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 116 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0x100010000?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0003d7680?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+2023-03-23T18:01:17.379+0800	INFO	goft/ZapLogger.go:50	/service-provier/list	{"status": 200, "method": "GET", "path": "/service-provier/list", "query": "", "ip": "10.1.7.21", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36", "errors": "", "cost": 0.000646412}
+2023-03-23T18:09:29.490+0800	INFO	goft/ZapLogger.go:50	/service-provier/list	{"status": 200, "method": "GET", "path": "/service-provier/list", "query": "", "ip": "10.1.7.21", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36", "errors": "", "cost": 0.000968773}
+2023-03-23T18:10:11.226+0800	INFO	goft/ZapLogger.go:50	/service-provier/list	{"status": 200, "method": "GET", "path": "/service-provier/list", "query": "", "ip": "10.1.7.21", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36", "errors": "", "cost": 0.000533599}
+2023-03-23T18:10:27.682+0800	INFO	goft/ZapLogger.go:50	/service-provier/list	{"status": 200, "method": "GET", "path": "/service-provier/list", "query": "", "ip": "10.1.7.21", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36", "errors": "", "cost": 0.000525664}
+2023-03-23T18:10:40.550+0800	INFO	goft/ZapLogger.go:50	/service-provier/list	{"status": 200, "method": "GET", "path": "/service-provier/list", "query": "", "ip": "10.1.7.21", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36", "errors": "", "cost": 0.000551312}
+2023-03-23T18:10:53.948+0800	INFO	goft/ZapLogger.go:50	/service-provier/list	{"status": 200, "method": "GET", "path": "/service-provier/list", "query": "", "ip": "10.1.7.21", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36", "errors": "", "cost": 0.000634037}
+2023-03-23T18:11:07.572+0800	INFO	goft/ZapLogger.go:50	/service-provier/list	{"status": 200, "method": "GET", "path": "/service-provier/list", "query": "", "ip": "10.1.7.21", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36", "errors": "", "cost": 0.000515555}
+2023-03-23T18:21:18.815+0800	INFO	goft/ZapLogger.go:50	/service-provier/list	{"status": 200, "method": "GET", "path": "/service-provier/list", "query": "", "ip": "10.1.7.21", "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36", "errors": "", "cost": 0.001299465}
+cron: 2023/03/23 19:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 146 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0xc00011cc90?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445f80?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445fd0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 19:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 147 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 19:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 149 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0xc000442f68?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6650?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000666190?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 19:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 148 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 20:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 163 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 20:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 65 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 20:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 162 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0xc000649f68?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6650?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000666190?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 20:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 64 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0xc000442f68?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6650?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000666190?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 21:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 167 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 21:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 165 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 21:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 166 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 21:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 164 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0xc00064ff70?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x34630b8a000?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 22:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 169 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 22:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 170 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0xc00011cc90?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445f80?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445fd0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 22:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 171 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 22:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 168 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 23:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 175 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0xc000442f68?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6650?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000666190?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 23:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 174 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 23:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 173 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/23 23:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 172 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0xc00011cc90?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445f80?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445fd0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 00:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 176 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 00:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 179 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0xc000446f70?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x34630b8a000?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 00:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 177 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0xc000442f68?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6650?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000666190?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 00:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 178 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000170b40?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 01:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 194 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 01:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 196 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 01:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 180 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000170b40?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 01:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 195 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 02:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 184 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 02:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 182 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0xc000442f68?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6650?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000666190?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 02:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 183 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0xc00011cc90?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445f80?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445fd0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 02:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 181 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 03:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 127 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0xc000441f68?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6650?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000666140?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 03:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 125 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 03:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 126 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0xc00064bf68?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6d10?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc0006182d0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 03:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 124 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 04:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 129 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0xc000441f68?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6650?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000666140?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 04:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 211 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0xc00011cc90?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445f80?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445fd0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 04:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 210 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0xc00011cc90?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445f80?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445fd0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 04:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 128 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0xc00064bf68?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6d10?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc0006182d0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 05:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 109 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 05:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 108 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0xc00011cc90?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445f80?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445fd0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 05:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 107 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0xc00011cc90?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445f80?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445fd0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 05:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 106 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0xc00064bf68?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6d10?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc0006182d0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 06:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 188 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 06:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 185 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0xc00064bf68?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6d10?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc0006182d0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 06:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 186 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000170b40?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 06:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 187 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0xc000441f68?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6650?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000666140?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 07:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 190 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000170b40?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 07:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 191 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0xc00064bf68?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6d10?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc0006182d0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 07:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 189 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0xc000441f68?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6650?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000666140?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 07:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 192 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 08:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 228 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0xc00011cc90?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445f80?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445fd0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 08:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 193 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 08:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 226 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0xc000442f68?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6650?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000666190?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 08:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 227 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0xc00064bf68?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6d10?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc0006182d0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 09:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 232 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 09:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 229 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0xc00064bf68?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6d10?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc0006182d0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 09:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 230 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0xc000442f68?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6650?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000666190?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 09:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 231 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 10:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 236 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 10:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 233 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 10:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 234 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0xc000442f68?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6650?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000666190?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 10:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 235 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0xc00064bf68?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6d10?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc0006182d0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 11:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 240 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 11:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 237 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0xc00064bf68?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6d10?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc0006182d0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 11:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 238 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0xc000442f68?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6650?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000666190?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 11:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 239 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 12:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 242 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0xc000442f68?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6650?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000666190?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 12:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 244 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 12:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 241 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 12:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 243 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0xc00064bf68?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6d10?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc0006182d0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 13:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 113 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0xc00011cc90?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445f80?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445fd0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 13:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 110 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 13:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 111 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0xc000442f68?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6650?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000666190?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 13:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 112 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0xc00011cc90?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445f80?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445fd0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 14:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 89 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 14:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 86 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0xc00011cc90?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445f80?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445fd0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 14:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 87 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 14:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 88 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0xc00011cc90?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445f80?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445fd0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 15:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 248 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 15:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 245 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0xc00064bf68?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6d10?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc0006182d0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 15:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 246 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 15:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 247 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0xc00011cc90?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445f80?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445fd0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 16:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 250 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0xc0004848c0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000118bd0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc0002935a0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 16:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 251 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 16:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 252 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 16:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 249 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0xc00011cc90?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445f80?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445fd0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 17:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 261 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedStart(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:69 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedStart(0x0?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0x0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 17:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 258 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).SyncFilBlockReward(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:28 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).SyncFilBlockReward(0xc0004848c0?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000118bd0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc0002935a0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 17:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 259 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*FilRewardService).CheckFilBlockRewardResult(0x0)
+	/home/huangzhijie/letsfil-job/src/service/FilBlockService.go:72 +0x72
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*FilRewardTask).CheckSyncFilBlockReward(0xc00011cc90?)
+	/home/huangzhijie/letsfil-job/src/tasks/FilRewardTask.go:20 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445f80?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000445fd0?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
+cron: 2023/03/24 17:00:00 panic, error=runtime error: invalid memory address or nil pointer dereference, stack=...
+goroutine 260 [running]:
+github.com/robfig/cron/v3.Recover.func1.1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:45 +0x85
+panic({0x1266820, 0x1ef9a60})
+	/usr/local/go-1.19/src/runtime/panic.go:884 +0x212
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/service.(*PlanProgressService).SyncMinerSealedProgress(0x0)
+	/home/huangzhijie/letsfil-job/src/service/PlanProgressService.go:29 +0x75
+git.sxxfuture.net/filfi/letsfil/letsfil-job/src/tasks.(*PlanProgressTask).SyncMinerSealedProgress(0xc000442f68?)
+	/home/huangzhijie/letsfil-job/src/tasks/PlanProgressServiceTask.go:17 +0x1c
+github.com/robfig/cron/v3.FuncJob.Run(0xc0000d6650?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.Recover.func1.1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/chain.go:53 +0x73
+github.com/robfig/cron/v3.FuncJob.Run(0xc000666190?)
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:136 +0x1a
+github.com/robfig/cron/v3.(*Cron).startJob.func1()
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:312 +0x6a
+created by github.com/robfig/cron/v3.(*Cron).startJob
+	/home/huangzhijie/go/pkg/mod/github.com/robfig/cron/v3@v3.0.1/cron.go:310 +0xad
